@@ -1,6 +1,6 @@
 def is_even?(num)
-    if (num % 2) == 0
-        return "its even"
+    if (num % 2) == 0  # We devide any number by 2 if the answer left as a whole number its even
+         return "its even"
     else
         return "its odd"
     end
